@@ -13,7 +13,7 @@ def scrape():
 
     browser.visit(url)
     html = browser.html
-    time.sleep(1)
+    time.sleep(2)
 
     soup = BeautifulSoup(html, 'html.parser')
 
